@@ -143,7 +143,7 @@
  
   if($submit == true){
            // Oracle connect 
-           $conn=oci_connect('SHAMIM', 'bj23Hzs', 'PRAGATI');  
+           $conn=oci_connect('User', 'Pass', 'Scim');  
 
            $policy_number = $_GET['policy_number']; 
 
