@@ -155,7 +155,7 @@
  
   if($submit == true){
            // Oracle connect 
-           $conn=oci_connect('shamim', 'bj23Hzs', 'PRAGATI');  
+           $conn=oci_connect('user', 'pass', 'scim');  
 
            $policy_number = $_GET['policy_number']; 
            $date_of_brith = $_GET['date_of_brith']; 
